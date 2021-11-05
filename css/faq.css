@@ -1,0 +1,289 @@
+/* -------------------------------Menu-bar---------------------------------------------------------------- */
+/* : */
+.menu-bar{
+    position: relative;
+    background-color: #1048b5;
+    background-image: var(--bs-gradient);
+}
+.side-logo{
+    position: absolute;
+    z-index: 1;
+}
+.logo{
+    padding-top: 12px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f3db4c;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.nav-link{
+  position: relative;
+}
+.nav-link::before{
+  content: "";
+  position: absolute;
+  top: -7.9px;
+  left: 45%;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #f3db4c transparent transparent transparent;
+  transform: 50%;
+  opacity: 0;
+}
+
+.nav-link:hover::before{
+  opacity: 1;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*========================================================= Banner ====================================== */
+.text-banner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.costmize-side-logo{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.costmize-banner{    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.re-size-banner{
+    width: 100%;
+}
+.heading1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.heading2 {
+  font-size: 80px;
+}
+.banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/banner.png');
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------Main FAQ----------------------------------------- */
+.faq-forum{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.we-help-accordian{
+  padding-bottom: 30px;
+}
+.forum-accordion-heading{
+  color: #1048b5 ;
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.875;
+	margin: 0;
+}
+.background-forum{
+  background-color: #fd7405;
+  border-radius: 13px;
+  padding-left: 10px;
+  padding-right: 9px;
+  padding-top: 50px;
+  padding-bottom: 117px;
+}
+#accordionFlushExample{
+  padding-top: 150px;
+}
+.accordian-number{
+  position: relative;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 0px;
+}
+.accordian-number:hover{
+  content: "";
+  position: absolute;
+  top: -7.9px;
+  left: 45%;
+  border-style: solid;
+  box-shadow: -5px 1px #708ec8;
+  opacity: 0;
+}
+.accordian-number:hover::after{
+  opacity: 1;
+}
+textarea {
+  resize: none;
+}
+textarea.ta10em {
+  height: 10em;
+}
+.btn{
+    border-radius: 50rem;
+    
+}
+.forum-submit{
+    border-radius: 50rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+label{
+    color: white;
+}
+.form-control
+{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: black;
+    cursor:default;
+}
+.forum-heading{
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bold;
+}
+.fourm-text{
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: .75rem;
+
+}
+#about{
+    height: 100vh;
+    background-position: center center no-repeat;
+    background-size: cover;
+    background-image: url('../img/banner.png');}
+/*-------------------------------------------------------------------------------------------------------*/
+/* ===============================================footer============================================== */
+.footer-whole{
+    background-color:#1048b5 ;
+}
+@media (max-width: 1400px) {
+    .footer-center {
+      display: flex;
+      position: relative;
+      top: 4px;
+    }
+    .nav-ad {
+      width: 60%;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -288px;
+    }
+  }
+  @media (max-width: 992px) {
+    .heading1 {
+      font-size: 30px;
+    }
+    .heading2 {
+      font-size: 50px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -146px;
+    }
+  }
+  @media (max-width: 620px) {
+    .heading1 {
+      font-size: 20px;
+    }
+    .heading2 {
+      font-size: 40px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -116px;
+    }
+  }
+  @media (max-width: 500px) {
+    .heading1 {
+      font-size: 10px;
+    }
+    .heading2 {
+      font-size: 25px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -24px;
+    }
+  }
+.bottom-link  {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+  .soci-icons {
+    color: white;
+    background-color: #cbd7ef;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+.footer-center {
+    display: flex;
+    position: relative;
+    top: -24px;
+  }
+  .bottom-placement {
+    position: relative;
+    top: -355px;
+  }
+.truncate {
+    display: block;
+    color: #ffb100;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+.join-truncate {
+    border: none;
+    padding: 15px 30px;
+    background-color: #fd7405;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+.join-truncate:hover {
+    border: 1px solid #fd7405;
+    padding: 14px 29px;
+    background-color: white;
+    color: #fd7405;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+/* font myrid */
+@font-face{
+    font-family: "Myriad-Pro";  
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+/*  */
+
+/* --------------------------------------------------------------======================================= */
+@media (max-width: 991px)
+
+{
+  .navbar-collapse {
+    position: absolute;
+    left: 2.4%;
+    top: calc(100% + 0px);
+    right: 0;
+    z-index: 1;
+    background: #1048b5;
+  }
+  .container{
+    position: relative;
+  }
+  .navbar{
+    position: static;
+  }
+}
+
+/* footer */
+
+/*  */
