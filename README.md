@@ -1,4 +1,4 @@
 # PSD-to-Front-end
 **Truncate**
-*FAQ
-*Contact-us
+*FAQ*
+*Contact-us*
