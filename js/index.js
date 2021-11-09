@@ -1,1 +1,0 @@
-document.getElementsByClassName('forum-submit').innerHTML ='Sum'

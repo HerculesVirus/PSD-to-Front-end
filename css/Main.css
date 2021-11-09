@@ -1,0 +1,401 @@
+/*----------------------------------Menu Bar----------------------------------------------------*/
+.menu-bar{
+    position: relative;
+    background-color: #1048b5;
+    background-image: var(--bs-gradient);
+}
+.side-logo{
+    position: absolute;
+    z-index: 1;
+}
+.logo{
+    padding-top: 12px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #f3db4c;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.nav-link{
+  position: relative;
+}
+.nav-link::before{
+  content: "";
+  position: absolute;
+  top: -7.9px;
+  left: 45%;
+  border-style: solid;
+  border-width: 10px 5px 0 5px;
+  border-color: #f3db4c transparent transparent transparent;
+  transform: 50%;
+  opacity: 0;
+}
+.nav-link:hover::before{
+  opacity: 1;
+}
+/*================================================== General-Banner ====================================== */
+.text-banner{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.re-size-banner{
+    width: 100%;
+}
+.heading1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.heading2 {
+  font-size: 80px;
+}
+.costmize-side-logo{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.costmize-banner{    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+/* ---------------------------------------------General End------------------------------------------------ */
+/*-----------------------------------------------FAQ Banner-------------------------------------------------*/
+.faq-banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/banner.png');
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Contact-us Banner------------------------------------------*/
+.contact-banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/pick-call.png');
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------Main FAQ --------------------------------------------*/
+.faq-forum{
+    padding-top: 70px;
+}
+.we-help-accordian{
+    padding-bottom: 30px;
+}
+.forum-accordion-heading{
+    color: #1048b5 ;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.875;
+    margin: 0;
+}
+.background-forum{
+    background-color: #fd7405;
+    border-radius: 13px;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 50px;
+    padding-bottom: 117px;
+}
+#accordionFlushExample{
+    padding-top: 150px;
+}
+.accordian-number{
+    position: relative;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 0px;
+}
+.accordian-number:hover{
+    content: "";
+    position: absolute;
+    top: -7.9px;
+    left: 45%;
+    border-style: solid;
+    box-shadow: -5px 1px #708ec8;
+    opacity: 0;
+}
+.accordian-number:hover::after{
+    opacity: 1;
+}
+textarea {
+    resize: none;
+}
+textarea.ta10em {
+    height: 10em;
+}
+.btn{
+    border-radius: 50rem;  
+}
+label{
+    color: white;
+}
+.forum-final{
+    border-radius: 30px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    background-color: white;
+    border: 1px solid #fd7405;
+    color: #fd7405; 
+}
+.forum-final:hover{
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#f4811f ;
+    border: none;
+    color: white;
+}
+.form-control
+{
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: black;
+    cursor:default;
+}
+.forum-heading{
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bold;
+}
+.fourm-text{
+    color: white;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: .75rem;
+}
+/*-------------------------------------------------------------------Main FAQ---------------------------------------*/
+/*-------------------------------------------------------------------Main Contact-Us--------------------------------*/
+.star-color{
+    color:  #f4811f ;
+}
+.contact-main{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contact-heading{
+    font-family: Myriad Pro;
+    font-size: x-large;
+    color: #1048b5;
+}
+.custom-form-contact{
+    background-color: #efefef;
+    border-radius: 5px;
+    border-width: thick;
+    box-shadow:-3px 3px #f4811f ;
+}
+.form-group{
+   padding: 20px;
+}
+.form-group input{
+    box-shadow: 5px 5px #e2e2e2 ;
+    border-style: outset;
+    border: none;
+}
+.form-group > select, textarea{
+    box-shadow: 5px 5px #e2e2e2 ;
+    border: none;
+}
+.pd-type{
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+.forum-submit:hover{
+    border-radius: 30px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    background-color: white;
+    border: 1px solid #fd7405;
+    color: #fd7405; 
+}
+.forum-submit{
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#f4811f ;
+    border: none;
+    color: white;
+}
+.contact-main a{
+    text-decoration: none;
+    color: #f4811f ;
+}
+.pass-color{
+  color: #f4811f ;
+}
+/*-------------------------------------------------------------Main Contact-US------------------------------------------*/
+/*-------------------------------------------------------------Common Footer------------------------------------------- */
+.background-img-wave{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/Footer-Background.png');
+  }
+.kid{
+    width: 100%;
+}
+.kid-align{
+    padding-top: 38px;
+}
+.bg-top-footer-h1{
+  font-family: Myriad Pro;
+  font-size: x-large;
+  font-weight: 100;
+  color: white;
+  clip-path: polygon(0 0, 100% 13%, 100% 83%, 0% 100%);
+  background: #1048b5;
+}
+.bg-top-footer-h2{
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  background: #fd7405;
+  clip-path: polygon(0 8%, 100% 0, 100% 97%, 5% 100%);
+}
+.footer-whole{
+    background-color:#1048b5 ;
+}
+.bottom-link {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.soci-icons {
+    color: white;
+    background-color: #cbd7ef;
+    padding: 8px 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.footer-center {
+    display: flex;
+    position: relative;
+    top: -24px;
+}
+.footer-top-text{
+  padding-top: 100px;
+  padding-bottom: 100px ;
+}
+.bottom-placement {
+    position: relative;
+    top: -355px; 
+}
+.truncate {
+    display: block;
+    color: #ffb100;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.join-truncate {
+    border: none;
+    padding: 15px 30px;
+    background-color: #fd7405;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.join-truncate:hover {
+    border: 1px solid #fd7405;
+    padding: 14px 29px;
+    background-color: white;
+    color: #fd7405;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.as-logo{
+    position: absolute;
+    margin-top: -44px;
+    z-index: 1;
+}
+/* --------------------------------------------------------------======================================= */
+@media (max-width: 1400px) {
+    .footer-center {
+      display: flex;
+      position: relative;
+      top: 4px;
+    }
+    .nav-ad {
+      width: 60%;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -288px;
+    }
+}
+@media (max-width: 1200px){
+  .container{
+    width: 1170px;
+  }
+}
+@media (max-width: 992px) {
+    .heading1 {
+      font-size: 30px;
+    }
+    .heading2 {
+      font-size: 50px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -146px;
+    }
+}
+@media (max-width: 991px)
+{
+  .navbar-collapse {
+    position: absolute;
+    left: 3%;
+    top: calc(100% + 0px);
+    right: 0;
+    z-index: 1;
+    background: #1048b5;
+  }
+  .container{
+    position: relative;
+  }
+  .navbar{
+    position: static;
+  }
+}
+@media (max-width: 620px) {
+    .heading1 {
+      font-size: 20px;
+    }
+    .heading2 {
+      font-size: 40px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -116px;
+    }
+}
+@media (max-width: 500px) {
+    .heading1 {
+      font-size: 10px;
+    }
+    .heading2 {
+      font-size: 25px;
+    }
+    .bottom-placement {
+      position: relative;
+      top: -24px;
+    }
+}
+/*-------------------------Media Query------------------------------------------- */
+/* font myrid */
+@font-face{
+    font-family: "Myriad-Pro";  
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+/*  */
